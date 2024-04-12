@@ -1,0 +1,48 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #88AB8E;
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    height: 100vh; /* Make the body fill the viewport height */
+}
+
+.container {
+    width: 60vh;
+    height: 60vh;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.box {
+    width: 18vh;
+    height: 16vh;
+    border-radius: 20%;
+    border: none;
+    box-shadow: 0 0 8px;
+    margin: 2px;
+    outline: none; /* Remove default outline */
+    vertical-align: top; /* Align buttons to the top */
+}
+.heading{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.msg{
+    text-align: center;
+    margin-top: 2rem;
+}
